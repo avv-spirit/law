@@ -1,0 +1,30 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+
+  width: auto;
+
+  color: $white;
+  background-color: $black;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: $tablet-width) {
+  .page-footer__container {
+    width: 768px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .page-footer {
+    width: auto;
+    flex-direction: column;
+  }
+  /*.page-footer__container {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+  }*/
+}
