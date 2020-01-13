@@ -4,6 +4,8 @@
   width: 1090px;
   height: 191px;
   margin: 0 auto;
+
+  outline: 1px solid red;
 }
 
 .nav-social__logo {
@@ -15,4 +17,6 @@
 .nav-social__right-panel {
   display: flex;
   flex-direction: row;
+
+  outline: 1px solid red;
 }
