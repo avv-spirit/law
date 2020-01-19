@@ -11,6 +11,37 @@
   font-weight: bold;
 }
 
+.page-footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1090px;
+  margin: 0 auto;
+}
+
+.page-footer__accordion-container a {
+  color: $white;
+  text-decoration: none;
+}
+
+.page-footer__accordion-container ul {
+  padding: 0;
+}
+
+.page-footer__accordion-container li {
+  list-style: none;
+}
+
+.page-footer__link-header {
+  margin-bottom: 15px;
+}
+
+.page-footer__copyright-wrapper {
+  width: 1090px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
 @media (max-width: $tablet-width) {
   .page-footer__container {
     width: 768px;

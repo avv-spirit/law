@@ -2,15 +2,21 @@
   display: flex;
   flex-direction: column;
 
-  margin: 0 auto;
-  width: 1090px;
+  width: auto;
+  height: 432px;
 
+  background-image: url("../img/main-building.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   outline: 1px solid red;
 }
 
 .header-article__articles-wrapper {
   display: flex;
   flex-direction: row;
+  margin: 0 auto;
+  width: 1090px;
   padding: 30px 0;
 }
 
