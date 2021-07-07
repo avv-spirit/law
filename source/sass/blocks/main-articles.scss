@@ -1,0 +1,30 @@
+.main-articles {
+  display: flex;
+
+  margin: 0 auto;
+  width: 1090px;
+}
+
+.main-articles__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  outline: 1px solid red;
+}
+
+.main-articles__top-title {
+  text-align: center;
+}
+
+.main-articles__main-title {
+  padding: 0 120px;
+  text-align: center;
+}
+
+.main-articles__containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}

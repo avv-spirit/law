@@ -1,0 +1,18 @@
+.actual-articles {
+  display: flex;
+
+  margin: 0 auto;
+  width: 1090px;
+
+  outline: 1px solid red;
+}
+
+.actual-articles__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.actual-articles__wrapper {
+  outline: 1px solid red;
+}

@@ -1,0 +1,22 @@
+.nav-social {
+  display: flex;
+  justify-content: space-between;
+  width: 1090px;
+  height: 191px;
+  margin: 0 auto;
+
+  outline: 1px solid red;
+}
+
+.nav-social__logo {
+  width: 259px;
+  height: 95px;
+  background-image: url("../img/law-icon.svg");
+}
+
+.nav-social__right-panel {
+  display: flex;
+  flex-direction: row;
+
+  outline: 1px solid red;
+}
